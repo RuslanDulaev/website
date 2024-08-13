@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(26, 26, 26);
+  z-index: 0;
+}
+
+.card {
+  display: flex;
+  max-height: 1000px;
+  height: 740px;
+  margin-top: 50px;
+}
+
+.info {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  width: 500px;
+  margin: -20px 40px 0px 180px;
+}
+
+p {
+  line-height: 27px;
+  font-family: Gill Sans, sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+  transition: letter-spacing 1s;
+}
+
+.speciality {
+  letter-spacing: 10px;
+  font-weight: 100;
+  transition: letter-spacing 1s;
+}
+
+.speciality:hover {
+  letter-spacing: 8px;
+}
+
+.doc-name {
+  letter-spacing: 8px;
+  transition: letter-spacing 1s;
+}
+
+.doc-name:hover {
+  letter-spacing: 5px;
+}
+
+.socials {
+  font-family: Gill Sans, sans-serif;
+  letter-spacing: 4px;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  width: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: white;
+  transition: background-color 1s;
+}
+
+.icons:hover {
+  background-color: rgb(74, 74, 74);
+}
+
+.image {
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+.avatar {
+  height: 80%;
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-right: 150px;
+  border-radius: 20px;
+  transition: 
+  margin-top 1s,
+  margin-left 1s,
+  height 1s;
+}
+
+.avatar:hover {
+  height: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
